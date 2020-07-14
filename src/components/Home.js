@@ -66,6 +66,22 @@ function Home(props) {
                         image = {dummy}
                     />
                 </div>
+                <div className="home__row">
+                    <Product 
+                        id = {"1"}
+                        title = {"Dell Inspiron i3583 15.6 HD Touch-Screen Laptop - Intel i3-8145U - 8GB DDR4-128GB SSD - Windows 10"}
+                        price = {"900.5"}
+                        rating = {5}
+                        image = {dummy}
+                    />
+                    <Product 
+                        id = {"1"}
+                        title = {"Dell Inspiron i3583 15.6 HD Touch-Screen Laptop - Intel i3-8145U - 8GB DDR4-128GB SSD - Windows 10"}
+                        price = {"900.5"}
+                        rating = {5}
+                        image = {dummy}
+                    />
+                </div>
             </div>
         </div>
     )

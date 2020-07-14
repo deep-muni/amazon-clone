@@ -1,0 +1,18 @@
+.home__body{
+}
+
+.home__banner{
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    margin-bottom: -250px;
+    z-index: -1;
+}
+
+.home__row{
+    z-index: 1;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
